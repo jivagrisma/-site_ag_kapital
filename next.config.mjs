@@ -20,6 +20,7 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-}
+  // Configuración para AWS Amplify
+  output: 'standalone',
 
 export default nextConfig
